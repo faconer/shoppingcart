@@ -1,0 +1,1 @@
+This project includes shopping cart, search, order management

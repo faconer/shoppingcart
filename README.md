@@ -1,1 +1,1 @@
-This project includes shopping cart, search, order management
+This project includes shopping cart, search, order management built in php and mysql

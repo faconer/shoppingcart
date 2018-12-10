@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f5f5f5;
+	color: #313131;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.input-group{
+	margin: 2rem 0;
+	position: relative;
+}
+
+#form-group{
+	background-color: white;
+	padding: 1rem 1.2rem;
+	box-shadow: .4px 2px 12px rgba(0, 0, 0, 0.2);
+	text-shadow: .2px .2px 2px rgba(0, 0, 0, .2); 
+	border-radius: 1rem;
+}
+
+#form-group h2{
+	text-align: center;
+	font-weight: 400;
+	user-select: none;
+}
+
+#form-group input{
+	display: block;
+	margin:0px auto;
+	color: #333;
+	border: none;
+	border-bottom: 1px solid dodgerblue;
+	outline: none;
+	padding: 6px 1px;
+}
+
+#form-group label{
+	position: absolute;
+	left: 0px;
+	top: 12px;
+	font-weight: 400;
+	font-size: 15px;
+	pointer-events: none;
+	color: gray;
+}
+
+#group-2 > label{
+	position: absolute;
+	top: 22px !important;
+	left: 0;
+}
+
+#form-group button{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	padding: .5rem 1rem;
+	border: none;
+	color: white;
+	border-radius:2rem;
+	width: 100%;
+	transition: 200ms;
+	box-shadow: 2px  2px 12px rgba(0, 0, 0, .3);
+	outline: none;
+	cursor: pointer; 
+}
+
+#form-group p{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 2rem;
+}
+
+#form-group a{
+	color: inherit;
+}
+
+.main-register{
+	width: 500px;
+}
+
+.main-login{
+	width: 400px;
+}
+
